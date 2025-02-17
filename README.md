@@ -1,16 +1,3 @@
 # flutter_impeller_view_flicker
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you have a stack with any sort of view ([webview_flutter](https://pub.dev/packages/webview_flutter), [flutter_unity_widget](https://pub.dev/packages/flutter_unity_widget), etc) and then a flutter widget above it with a running animation and go from backgrounded to foregrounded you will occasionally see a glimpse of the view and the flutter UI will flicker. 
